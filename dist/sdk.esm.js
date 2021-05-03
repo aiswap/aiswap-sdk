@@ -16,7 +16,7 @@ var _SOLIDITY_TYPE_MAXIMA;
 var ChainId;
 
 (function (ChainId) {
-  ChainId[ChainId["MAINNET"] = 65] = "MAINNET";
+  ChainId[ChainId["MAINNET"] = 66] = "MAINNET";
 })(ChainId || (ChainId = {}));
 
 var TradeType;
@@ -34,8 +34,8 @@ var Rounding;
   Rounding[Rounding["ROUND_UP"] = 2] = "ROUND_UP";
 })(Rounding || (Rounding = {}));
 
-var FACTORY_ADDRESS = '0x386CbD55927c1FEC057D30Fe68A6dB656e8C31dC';
-var INIT_CODE_HASH = '0x71d15772a2b431bfcb85fd38973fe760b5765f961d5586544c62fabc8ba01d3c';
+var FACTORY_ADDRESS = '0x65728c1d0e545db117940d5745089c256516ad43';
+var INIT_CODE_HASH = '0x78218c71181a699dff7272c7e94bb97c24d9eceb38aee519a2dc9e070453e4cb';
 var MINIMUM_LIQUIDITY = /*#__PURE__*/JSBI.BigInt(1000); // exports for internal consumption
 
 var ZERO = /*#__PURE__*/JSBI.BigInt(0);
